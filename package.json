@@ -1,0 +1,13 @@
+{
+  "name": "ai-admin-assistant",
+  "version": "1.0.0",
+  "description": "Minecraft AI Admin Assistant for ChaosSMP",
+  "main": "assistant.js",
+  "scripts": {
+    "start": "node assistant.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "mineflayer": "^4.20.1"
+  }
+}
