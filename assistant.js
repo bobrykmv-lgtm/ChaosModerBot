@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer');
 const { GoogleGenAI } = require('@google/genai');
 
 // 1. Отримуємо налаштування із змінних оточення (Environment Variables)
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_API_KEY = process.env.AQ.Ab8RN6Ijn8XKlahb_cZ9yhiTavVebupqcwoNOJA3nSKnIvMzHA;
 const ADMIN_USERNAME = 'W1nUser'; // Твій нік на сервері
 
 if (!GEMINI_API_KEY) {
