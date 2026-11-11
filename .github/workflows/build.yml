@@ -22,7 +22,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
 
     - name: 📦 Встановлення залежностей (npm install)
       run: npm install
@@ -30,7 +29,6 @@ jobs:
     - name: 🗂️ Запакування проєкту в архів
       run: |
         mkdir -p dist
-        # Копіюємо всі важливі файли у папку збірки
         cp assistant.js package.json dist/
         cp -r node_modules dist/
 
